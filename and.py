@@ -46,7 +46,7 @@ def perceptron_sgd_plot(X, Y):
     '''
     w = np.zeros(len(X[0]))
     eta = 1
-    n = 30
+    n = 20
     errors = []
 
     for t in range(n):
